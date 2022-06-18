@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hotel.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div ><a href="index.html"><img id="nimg" src="https://tse1.mm.bing.net/th?id=OIP.tT958ARtBe-btW9FhZ7rSAAAAA&pid=Api&P=0&w=477&h=94"></a></div>
+  <select id="nav">
+      <option>More Travel</option>
+      <option>Stays</option>
+      <option>Flights</option>
+      <option>Package</option>
+      <option>car</option>
+      <option>Cruises</option>
+      <option>Things to do</option>
+      <option>Deals</option>
+      <option>Group and meeting</option>
+      <option>Travel Blog</option>
+  </select>
+  <div id="bar">
+   <h3><a>Espanol</a></h3>
+   <h3><a>List your Property</a></h3>
+   <h3><a>Support</a></h3>
+   <h3><a href="trips.html">Trips</a></h3>
+   <h3><a id="a">Login</a></h3>
+  </div>
+      
+    </div>
+    <div id="trip"></div>
+
+
+    <div id="footer">
+        <div class="fdiv">
+            <h1>expedia group</h1>
+           
+        </div>
+        <div class="fdiv">
+            <h4>Company</h4>
+            <h5>About us</h5>
+            <h5>List your property</h5>
+            <h5>Partnerships</h5>
+            <h5>Newsroom</h5>
+            <h5>Investor Relations</h5>
+            <h5>Site Map</h5>
+            <h5>Orbitz Rewards</h5>
+            <h5>Advertising</h5>
+        </div>
+        <div class="fdiv">
+            <h4>Explore</h4>
+            <h5>Hotel in the united States</h5>
+            <h5>Vacation home in the united states</h5>
+            <h5>Car Rentals in United States</h5>
+            <h5>List your property</h5>
+            <h5>Domestic Flights</h5>
+            <h5>Vacation Packages in United States</h5>
+            <h5>Orbitz Reviews</h5>
+            <h5>Site Map</h5>
+            <h5>Orbitz Rewards</h5>
+            <h5>Unique Accommodations</h5>
+            <h5>Travel Blog</h5>
+
+        </div>
+        <div class="fdiv">
+            <h4>Policies</h4>
+            <h5>Privacy Policy</h5>
+            <h5>Terms of Use</h5>
+            <h5>Vrbo terms and conditions</h5>
+            <h5>hOrbitz Rewards Terms</h5>
+            <h5>Do not sell my personal information</h5>
+            
+        </div>
+        <div class="fdiv">
+            <h4>Help</h4>
+            <h5>Support</h5>
+            <h5>Cancel your hotel  booking</h5>
+            <h5>Cancel your flight</h5>
+            <h5>Refund timelines, policies & processes</h5>
+            <h5>Use an Orbitz Coupon</h5>
+        </div>
+    </div>
+    <script>
+        let out=JSON.parse(localStorage.getItem("login"))
+    document.getElementById("a").innerText=out[0].name
+        let data=JSON.parse(localStorage.getItem('hotel'))
+        let data2=JSON.parse(localStorage.getItem('detail'))
+
+         let card=document.createElement("div")
+            card.setAttribute("class","card")
+            let img = document.createElement("img")
+            img.src=data.img
+            let card1=document.createElement("div")
+            card1.setAttribute("class","card1")
+            let card2=document.createElement("div")
+            card2.setAttribute("class","card2")
+            let card3=document.createElement("div")
+            card3.setAttribute("class","card3")
+
+            let a = document.createElement("h2")
+            a.innerText=data.title
+            
+            let b = document.createElement("h3")
+            b.innerText=data2[3]
+            let c= document.createElement("h4")
+            c.innerText="From"+" "+data2[0]+" "+"To"+" "+data2[1]
+            let d= document.createElement("h4")
+            d.innerText=data2[2]+" "+"Person Confirmed  Booked"
+            let e= document.createElement("p")
+            e.innerText=data.rating+"/"+"5"+" "+data.rvalue
+            let f= document.createElement("h2")
+            f.innerText="Cancel"
+            f.addEventListener("click",function(){
+                alert("Are you sure you  want to cancel?")
+                f.innerText="Ordered"
+                g.innerText="cancelled"
+            })
+            let g= document.createElement("h4")
+            g.innerText="Reshedule"
+            
+            let div = document.getElementById("trip")
+            card1.append(img)
+            card2.append(a,b,c,d,e,)
+            card3.append(f,g)
+            card.append(card1,card2,card3)
+            div.append(card)
+    </script>

@@ -1,0 +1,166 @@
+#navbar{
+    display: flex;
+    background-color:rgb(30, 3, 55);
+    height:80px;
+    width:100%;
+    color:white;
+    justify-content:space-between;
+}#nav{
+    height: 30px;
+    margin-top:20px
+}
+a{
+    color:white;
+   margin-left:25px 
+}
+#bar{
+    display:flex;
+    justify-content: space-around;
+
+}
+#nimg{
+    margin-top: 15px;
+    height: 50px;
+    width:140px;
+    
+}#header{
+    margin-top:20px;
+    margin-left: 10%;
+}#main{
+   
+    height: auto;
+    width:80%;
+    display:flex;
+    margin: auto;
+    margin-top:20px
+}#left{
+   
+    height:auto;
+    width:20%;
+}
+#right{
+   
+    height:auto;
+    width:75%;
+    margin-left: 5%;
+    
+}#righttop{
+    height: 40px;
+    width:90%;
+    
+    margin:auto;
+    display:flex;
+    justify-content:space-around
+}#rightdown{
+    margin-top: 20px;
+    height: auto;
+    width: 95%;
+   
+    background-color: whitesmoke;
+
+}#rightdown>div{
+  height:250px;
+  width:100%;
+  background-color: white;
+
+}
+
+.card{
+    display:flex
+}
+.card1>img{
+    height:200px;
+    width:300px;
+    
+}.card2{
+    width:45%;
+    height:auto;
+
+margin-left:20px;
+margin-top: -20px;
+
+
+}.card2>h3{
+    color: gray;
+
+}.card2>p{
+    font-size:large;
+    font-weight: bold;
+}
+.card2>h4{
+    color:green;
+    line-height:7px
+
+}
+.card3>h4{
+ color: gray;
+}
+.card3{
+    height: 70px;
+    width: 100px;
+    margin-left:80px;
+    margin-top: 110px;
+   
+    line-height:8px
+}#add{
+    height: 40px;
+    width: 300px;
+}#d1{
+    height: 40px;
+    width: 180px
+}#d2{
+    height: 40px;
+    width: 180px
+}#d3{
+    height: 40px;
+    width: 180px
+}#d4{
+    height: 45px;
+    width: 180px
+}#footer{
+  
+    display:flex;
+    height: 350px;
+    width: 100%;
+    margin:auto;
+    
+   
+}.fdiv{
+    width: 20%;
+    height:350px;
+   
+    background-color: whitesmoke;
+}.fdiv>h4,h5{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.fdiv>h5{
+    line-height:2px;
+    color:grey;
+    font-family: Arial, Helvetica, sans-serif;
+}.fdiv>h1{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(26, 26, 125)
+}
+option{
+   font-size:medium
+}img{
+width:240px;
+height:160px;
+}
+#sort>option{
+  font-size:large
+}
+#sort{
+    
+    height: 40px;
+    font-size: large;
+}
+#trip{
+    height:500px;
+    width:80%;
+    margin-left: 10%;
+    border: 1px solid red;
+}

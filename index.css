@@ -1,0 +1,200 @@
+#container{
+    height: 500px;
+    width: 100%;
+    background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2021/11/01/ORB_Storefront_6_imgB_1400x600_20211028.jpg?impolicy=fcrop&w=900&h=506&q=mediumHigh");
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container1{
+    height: 300px;
+    width: 75%;
+    background-color: white;
+   
+}
+#container11{
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+hr{
+    width: 85%;
+}
+#content{
+    display: flex;
+    justify-content: center;
+}
+input{
+    height: 40px;
+    margin-right: 15px;
+    margin-top: 40px;
+}
+#but{
+margin-left: 47.5%;
+margin-top: 40px;
+height: 40px;
+width: 150px;
+background-color: #CF4B6D;
+color: white;
+font-weight: bold;
+border: none;
+font-size: 16px;
+}
+#aa{
+display: flex;
+justify-content: center;
+}
+#aa>img{
+width: 27%;
+margin-left: 20px;
+margin-top: 40px;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#aa>img:hover{
+transform: scale(1.05);
+}
+h2{
+color: #1F1F1F;
+margin-left: 9%;
+margin-top: 40px;
+}
+
+#xy{
+display: flex;
+}
+#x{
+height: 300px;
+width: 1000px;
+   background-image: url("https://forever.travel-assets.com/flex/flexmanager/images/2020/12/03/ORB_Storefront_Deals_2740x1484-V1.jpg");
+    background-repeat:no-repeat;
+    background-attachment: scroll;  
+    background-size: contain;
+    margin-left: 10%;
+    margin-right: 5px;
+}
+#y{
+height: 550px;
+width: 400px;
+   background-image: url("bb.jpg");
+    background-repeat:no-repeat;
+    background-attachment: scroll;  
+    background-size: contain;
+    margin-left: -29%;
+  
+}
+#x1{
+margin-top: 240px;
+font-size: 18px;
+color: white;
+margin-left: 20px;
+}
+#x2{
+margin-top: -10px;
+font-size: 18px;
+color: white;
+margin-left: 20px;
+}
+#back{
+background-color: #F5F5F5;
+}
+#here{
+color: #1F1F1F;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 28px;
+font-weight: bold;
+margin-top: -200px;
+margin-left: 10%;
+}
+#here1{
+color: #1F1F1F;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 28px;
+font-weight: bold;
+margin-left: 10%;
+}
+#here0{
+color: #1F1F1F;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 28px;
+font-weight: bold;
+margin-left: 10%;
+}
+#mm{
+display: flex;
+justify-content: center;
+width: 80%;
+margin: auto;
+
+}
+#mm>div{
+height: 110px;
+width: 400px;
+border: solid 1px gray;
+margin-right: 20px;
+background-color: white;
+}
+.mm1{
+color: #1F1F1F;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 24px;
+font-weight: bold;
+margin-left: 15px;
+}
+.mm2{
+color:gray;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 12px;
+margin-top: -15px;
+margin-left: 15px;
+}
+#zz{
+    height:250px;
+width: 85%;
+margin-left: 10%;
+}
+#yy{
+    height:150px;
+margin-top: 40px;
+width: 85%;
+margin-left: 10%;
+}
+#xx{
+    height:400px;
+margin-top: 40px;
+width: 85%;
+margin-left: 10%;
+
+}
+.desti{
+display: flex;
+justify-content: center;
+margin: auto;
+}
+.desti>div{
+height: 60px;
+width: 400px;
+margin-right: 20px;
+margin-bottom: 20px;
+display: flex;
+align-items: center;
+padding-left: 20px;
+font-weight: bold;
+font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+font-size: 22px;
+background-color: white;
+}
+#feature{
+margin-top: 0px;
+height: 250px;
+width: 85%;
+margin-left: 8%;
+margin-bottom: 40px;
+}
+#container11>h3>a{
+   color: black;
+    text-decoration: none;
+}

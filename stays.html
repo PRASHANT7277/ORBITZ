@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./hotel.css">
+</head>
+
+<body>
+    <div id="navbar">
+        <div ><a href="index.html"><img id="nimg" src="https://tse1.mm.bing.net/th?id=OIP.tT958ARtBe-btW9FhZ7rSAAAAA&pid=Api&P=0&w=477&h=94"></a></div>
+  <select id="nav">
+      <option>More Travel</option>
+      <option>Stays</option>
+      <option>Flights</option>
+      <option>Package</option>
+      <option>car</option>
+      <option>Cruises</option>
+      <option>Things to do</option>
+      <option>Deals</option>
+      <option>Group and meeting</option>
+      <option>Travel Blog</option>
+  </select>
+  <div id="bar">
+   <h3><a>Espanol</a></h3>
+   <h3><a>List your Property</a></h3>
+   <h3><a>Support</a></h3>
+   <h3><a href="trips.html">Trips</a></h3>
+   <h3><a id="ab">Login</a></h3>
+  </div>
+      
+    </div>
+    <div id="header">
+        <input id="add" type="text" placeholder="address">
+        <label id="a" for="d1">Check in</label>
+        <input id="d1" type="date">
+        <label id="b" for="d2">Check out</label>
+        <input id="d2"  type="date">
+        <input id="d3" type="number" placeholder="No of person">
+        <button id="d4" onclick="search()">Search</button>
+
+    </div>
+    <div id="main">
+        <div id="left">
+            <div id="ltop"><img src="https://tse4.mm.bing.net/th?id=OIP.ZPKuUY0mrE5VBDOS1oAuAQHaEF&pid=Api&P=0&w=323&h=178"></div>
+            <h3>Search by property name</h3>
+            <input type="text" id="search" placeholder="Search by property">
+            <h3>Filter now</h3>
+            <h3>Filter by locality</h3>
+            <input type="checkbox" id="a"  >
+            <label for="a"> Hauz khas</label><br>
+            <input type="checkbox" id="b">
+            <label for="b"> R.K.Puram</label><br>
+            <input type="checkbox" id="c" >
+            <label for="c"> Dwarka</label><br>
+            <input type="checkbox" id="d"  >
+            <label for="d"> Mandi house</label><br>
+            <input type="checkbox" id="e" >
+            <label for="e">Majnu ka Tila</label><br>
+            <input type="checkbox" id="f"  >
+            <label for="f"> Mukherjee Nagar</label><br>
+            <input type="checkbox" id="g" >
+            <label for="g">Karol Bagh </label><br>
+            <input type="checkbox" id="h" >
+            <label for="h">Malviya Nagar </label><br>
+
+            <h3>Popular Filter</h3>
+            <input type="checkbox" id="a"  >
+            <label for="a"> Hauz khas</label><br>
+            <input type="checkbox" id="b">
+            <label for="b"> R.K.Puram</label><br>
+            <input type="checkbox" id="c" >
+            <label for="c"> Dwarka</label><br>
+            <input type="checkbox" id="d"  >
+            <label for="d"> Mandi house</label><br>
+            <input type="checkbox" id="e" >
+            <label for="e">Majnu ka Tila</label>
+
+            <h3>Meal Plan Available</h3>
+            <input type="checkbox" id="a"  >
+            <label for="a"> Hauz khas</label><br>
+            <input type="checkbox" id="b">
+            <label for="b"> R.K.Puram</label><br>
+            <input type="checkbox" id="c" >
+            <label for="c"> Dwarka</label><br>
+            <input type="checkbox" id="d"  >
+            <label for="d"> Mandi house</label><br>
+            <input type="checkbox" id="e" >
+            <label for="e">Majnu ka Tila</label>
+
+            <h3>Amenities</h3>
+            <input type="checkbox" id="a"  >
+            <label for="a"> Hauz khas</label><br>
+            <input type="checkbox" id="b">
+            <label for="b"> R.K.Puram</label><br>
+            <input type="checkbox" id="c" >
+            <label for="c"> Dwarka</label><br>
+            <input type="checkbox" id="d"  >
+            <label for="d"> Mandi house</label><br>
+            <input type="checkbox" id="e" >
+            <label for="e">Majnu ka Tila</label>
+
+            <h3>Accessibility</h3>
+            <input type="checkbox" id="a"  >
+            <label for="a"> Hauz khas</label><br>
+            <input type="checkbox" id="b">
+            <label for="b"> R.K.Puram</label><br>
+            <input type="checkbox" id="c" >
+            <label for="c"> Dwarka</label><br>
+            <input type="checkbox" id="d"  >
+            <label for="d"> Mandi house</label><br>
+            <input type="checkbox" id="e" >
+            <label for="e">Majnu ka Tila</label>
+
+
+        </div> 
+        <div id="right">
+            <div id="righttop">
+                
+                <h4>See how we pick our recommended properties !</h4>
+                <select id="sort" onchange="hshow()" >
+                    <option value="rec">Recommended</option>
+                    <option value="lth">Price Low to high</option>
+                    <option value="htl">Price High to low</option>
+                    <option value="ratel">By rating LTH</option>
+                    <option value="rateh">By rating HTL</option>
+                    <option value="loc">By your location</option>
+                </select>
+            </div>
+            <div id="rightdown"></div>
+        </div>
+
+    </div>
+
+    <div id="footer">
+        <div class="fdiv">
+            <h1>expedia group</h1>
+           
+        </div>
+        <div class="fdiv">
+            <h4>Company</h4>
+            <h5>About us</h5>
+            <h5>List your property</h5>
+            <h5>Partnerships</h5>
+            <h5>Newsroom</h5>
+            <h5>Investor Relations</h5>
+            <h5>Site Map</h5>
+            <h5>Orbitz Rewards</h5>
+            <h5>Advertising</h5>
+        </div>
+        <div class="fdiv">
+            <h4>Explore</h4>
+            <h5>Hotel in the united States</h5>
+            <h5>Vacation home in the united states</h5>
+            <h5>Car Rentals in United States</h5>
+            <h5>List your property</h5>
+            <h5>Domestic Flights</h5>
+            <h5>Vacation Packages in United States</h5>
+            <h5>Orbitz Reviews</h5>
+            <h5>Site Map</h5>
+            <h5>Orbitz Rewards</h5>
+            <h5>Unique Accommodations</h5>
+            <h5>Travel Blog</h5>
+
+        </div>
+        <div class="fdiv">
+            <h4>Policies</h4>
+            <h5>Privacy Policy</h5>
+            <h5>Terms of Use</h5>
+            <h5>Vrbo terms and conditions</h5>
+            <h5>hOrbitz Rewards Terms</h5>
+            <h5>Do not sell my personal information</h5>
+            
+        </div>
+        <div class="fdiv">
+            <h4>Help</h4>
+            <h5>Support</h5>
+            <h5>Cancel your hotel  booking</h5>
+            <h5>Cancel your flight</h5>
+            <h5>Refund timelines, policies & processes</h5>
+            <h5>Use an Orbitz Coupon</h5>
+        </div>
+    </div>
+</body>
+</html>
+<script>
+    let out=JSON.parse(localStorage.getItem("login"))
+    document.getElementById("ab").innerText=out[0].name
+  
+   
+let data=[]
+
+function hotel(image,a,b,c,d,e,f,g,h){
+    this.img=image,
+    this.title=a,
+    this.location=b,
+    this.dis=c,
+    this.disc=d,
+    this.rating=e,
+    this.rvalue=f
+    this.amount=g,
+    this.rate=h
+}
+
+
+let d1=new hotel("https://images.trvl-media.com/hotels/1000000/440000/438400/438378/bdbe16ac.jpg?impolicy=resizecrop&rw=455&ra=fit","The Leela International hotel","new,delhi","100% refundable","Reserve now,pay later",4.7,"Exceptional",147,"160")
+let d2=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/10000/3800/3793/17600cec_b.jpg","Vivanta internationa hotel","new,delhi","100% refundable","Reserve now,pay later",4.3," Very Good",120,"137")
+let d3=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/4000000/3860000/3851700/3851663/958ad657_b.jpg","Radisson Blu internationa hotel","new,delhi","100% refundable","Reserve now,pay later",3.1,"Good",92,"103")
+let d4=new hotel("https://images.trvl-media.com/hotels/9000000/8740000/8738300/8738241/9fdc0ad2.jpg?impolicy=resizecrop&rw=455&ra=fit","The Roseate hotel","new,delhi","100% refundable","Reserve now,pay later",3.4,"Good",95,"107")
+let d5=new hotel("https://images.trvl-media.com/hotels/10000000/9150000/9141400/9141328/b50c24b2.jpg?impolicy=resizecrop&rw=455&ra=fit","The Metropolitan hotel and Spa","new,delhi","100% refundable","Reserve now,pay later",4.6,"Excellant",172,"190")
+let d6=new hotel("https://images.trvl-media.com/hotels/28000000/27110000/27106600/27106521/1ebf889c.jpg?impolicy=resizecrop&rw=455&ra=fit","Welcomehotel by ITC hotel","new,delhi","100% refundable","Reserve now,pay later",4.5,"Ecelllant",165,"170")
+let d7=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5450000/5440800/5440703/dd0807dc_b.jpg","The Imperial","new,delhi","100% refundable","Reserve now,pay later",3.6,"Good",101,"120")
+let d8=new hotel("https://images.trvl-media.com/hotels/32000000/31060000/31054200/31054148/fe5729de.jpg?impolicy=resizecrop&rw=455&ra=fit","The LaLiT","new,delhi","100% refundable","Reserve now,pay later",3.7,"Good",97,"103")
+let d9=new hotel("https://images.trvl-media.com/hotels/6000000/5320000/5310500/5310433/044d1ec9.jpg?impolicy=resizecrop&rw=455&ra=fit","Pride Plaza hotel","new,delhi","100% refundable","Reserve now,pay later",4.4,"Very Good",119,"130")
+let d10=new hotel("https://images.trvl-media.com/hotels/6000000/5500000/5493200/5493151/e6a8e2e7.jpg?impolicy=resizecrop&rw=455&ra=fit","Gracious by Vishesh hotel","new,delhi","100% refundable","Reserve now,pay later",4.1,"Very Good",129,"140")
+let d11=new hotel("https://images.trvl-media.com/hotels/10000000/10000000/9994600/9994586/bf4110ec.jpg?impolicy=resizecrop&rw=455&ra=fit","Sheraton hotel","new,delhi","100% refundable","Reserve now,pay later",4.3,"very Good",142,"150")
+let d12=new hotel("https://images.trvl-media.com/hotels/26000000/25020000/25017800/25017758/b2d92513.jpg?impolicy=resizecrop&rw=455&ra=fit","Jaypee Vasant Continental","new,delhi","100% refundable","Reserve now,pay later",3.7,"Good",92,"99")
+let d13=new hotel("https://images.trvl-media.com/hotels/1000000/470000/465100/465005/13a4747e.jpg?impolicy=resizecrop&rw=455&ra=fit","The Suryaa hotel","new,delhi","100% refundable","Reserve now,pay later",3.9,"Good",99,"110")
+let d14=new hotel("https://images.trvl-media.com/hotels/5000000/4550000/4542900/4542829/128c7217.jpg?impolicy=resizecrop&rw=455&ra=fit","Palm Springs Stays","new,delhi","100% refundable","Reserve now,pay later",3.2,"Good",97,"104")
+let d15=new hotel("https://images.trvl-media.com/hotels/1000000/440000/437300/437268/w2926h2089x5y7-0a00a92b.jpg?impolicy=resizecrop&rw=455&ra=fithttps://images.trvl-","Parrot internationa hotel","new,delhi","100% refundable","Reserve now,pay later",3.3,"Good",98,"108")
+let d16=new hotel("https://images.trvl-media.com/hotels/14000000/13530000/13520300/13520262/8bfb13db.jpg?impolicy=resizecrop&rw=455&ra=fithttps://images.trvl-media","Nagaswar internationa hotel","new,delhi","100% refundable","Reserve now,pay later",4.1,"Very Good",117,"131")
+let d17=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/1000000/10000/3800/3793/17600cec_b.jpg","Reddy,s internationa hotel","new,delhi","100% refundable","Reserve now,pay later",4.4," Very Good",133,"$149")
+let d18=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/4000000/3860000/3851700/3851663/958ad657_b.jpg"," Hotel City Star","new,delhi","100% refundable","Reserve now,pay later",3.9,"Good",94,"107")
+let d19=new hotel("https://images.trvl-media.com/hotels/9000000/8740000/8738300/8738241/9fdc0ad2.jpg?impolicy=resizecrop&rw=455&ra=fit","The Taj Mahal hotel","new,delhi","100% refundable","Reserve now,pay later",3.7,"Good",91,"102")
+let d20=new hotel("https://images.trvl-media.com/hotels/28000000/27110000/27106600/27106521/1ebf889c.jpg?impolicy=resizecrop&rw=455&ra=fit","Jaypee Siddarth hotel","new,delhi","100% refundable","Reserve now,pay later",4.6,"Excellant",164,"$177")
+let d21=new hotel("https://a.travel-assets.com/media/meso_cm/PAPI/Images/hotels/6000000/5450000/5440800/5440703/dd0807dc_b.jpg","The Pinaki Residency","new,delhi","100% refundable","Reserve now,pay later",4.4,"Excellant",162,"$177")
+let d22=new hotel("https://images.trvl-media.com/hotels/6000000/5320000/5310500/5310433/044d1ec9.jpg?impolicy=resizecrop&rw=455&ra=fit","Hotel Kuber Internationa ","new,delhi","100% refundable","Reserve now,pay later",3.8,"Good",88,"99")
+let d23=new hotel("https://images.trvl-media.com/hotels/1000000/470000/465100/465005/13a4747e.jpg?impolicy=resizecrop&rw=455&ra=fit","The grand hotel","new,delhi","100% refundable","Reserve now,pay later",4.3,"Very Good",122,"$133")
+let d24=new hotel("https://images.trvl-media.com/hotels/5000000/4550000/4542900/4542829/128c7217.jpg?impolicy=resizecrop&rw=455&ra=fit","Hotel shanti palace","new,delhi","100% refundable","Reserve now,pay later",3.9,"Good",103,"111")
+let d25=new hotel("https://images.trvl-media.com/hotels/1000000/440000/437300/437268/w2926h2089x5y7-0a00a92b.jpg?impolicy=resizecrop&rw=455&ra=fit","holiday internationa hotel","new,delhi","100% refundable","Reserve now,pay later",3.6,"Good",85,"95")
+
+
+data.push(d1,d2,d3,d4,d5,d6,d7,d8,d9,d10,d11,d12,d13,d14,d15,d16,d17,d18,d19,d20,d21,d22,d23,d24,d25)
+
+
+    function search(){
+        
+      append(data)
+    }
+    function append(data){
+        document.getElementById("rightdown").innerHTML=null
+        data.forEach(elem => {
+            let arr=[]
+            let query=document.getElementById("add").value
+            let din=document.getElementById("d1").value
+            let dout=document.getElementById("d2").value
+            let dp=document.getElementById("d3").value
+            arr.push(din,dout,dp,query)
+            let card=document.createElement("div")
+            card.setAttribute("class","card")
+            let img = document.createElement("img")
+            img.src=elem.img
+            let card1=document.createElement("div")
+            card1.setAttribute("class","card1")
+            let card2=document.createElement("div")
+            card2.setAttribute("class","card2")
+            let card3=document.createElement("div")
+            card3.setAttribute("class","card3")
+
+            let a = document.createElement("h2")
+            a.innerText=elem.title
+            a.addEventListener("click",function(){
+                localStorage.setItem("hotel",JSON.stringify(elem))
+                localStorage.setItem("detail",JSON.stringify(arr))
+                window.location.href="hotel.html"
+               })
+            let b = document.createElement("h3")
+            b.innerText=query
+            let c= document.createElement("h4")
+            c.innerText=elem.dis
+            let d= document.createElement("h4")
+            d.innerText=elem.disc
+            let e= document.createElement("p")
+            e.innerText=elem.rating+"/"+"5"+" "+elem.rvalue
+            let f= document.createElement("h2")
+            f.innerText="$"+elem.amount
+            let g= document.createElement("h4")
+            g.innerText="$"+elem.rate+" "+"total"
+            
+            let div = document.getElementById("rightdown")
+            card1.append(img)
+            card2.append(a,b,c,d,e,)
+            card3.append(f,g)
+            card.append(card1,card2,card3)
+            div.append(card)
+        });
+    }
+    function hshow(){
+    let out=document.getElementById("sort").value
+    if(out==="rec"){
+        append(data)
+    }
+    if(out==="lth"){
+        data.sort(function(a,b){
+            return a.amount-b.amount
+        })
+        append(data)
+    }
+    if(out==="htl"){
+        data.sort(function(a,b){
+            return b.amount-a.amount
+        })
+        append(data)
+    }
+    if(out==="ratel"){
+        data.sort(function(a,b){
+            return a.rating-b.rating
+        })
+        append(data)
+    }
+    if(out==="rateh"){
+        data.sort(function(a,b){
+            return b.rating-a.rating
+        })
+        append(data)
+    }
+}
+</script>
+
+
+
+
