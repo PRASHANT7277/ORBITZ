@@ -1,0 +1,407 @@
+body{
+    padding:0px;
+    margin:0px;
+    margin-bottom: 80px;
+    background-color: rgb(231, 231, 244);
+}
+#container{
+    
+    margin:auto;
+    height:auto;
+    width:70%;
+    /* border:1px solid; */
+    margin-top:60px; 
+}
+
+@media only screen and (max-width:730px){
+    #container{
+        
+        width:100%;
+        /* border:1px solid red; */
+        margin-top:60px; 
+    }
+
+    #earn{
+        width:100%;
+    }
+   
+
+}
+img{
+    height:100%;
+    width:200px;
+    border:1px solid ;
+    border:none;
+}
+#navbar{
+    height:80px;
+    margin-top:0px;
+    width:100%;
+    position:fixed;
+    margin-top:-60px;
+    margin-bottom: 105px;
+    /* border:1px solid red; */
+    /* display:flex; */
+    /* justify-content: space-around;
+    background-color: #142b6a; */
+    /* position:relative; */
+}
+.header>h1{
+    /* margin-top:500px;
+    margin-bottom: -500px; */
+   border:1px solid;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+#nav{
+     /* border:1px solid red;  */
+    height:70px;
+    width:100%; 
+    
+    display:flex; 
+    justify-content: space-around;
+    background-color: #142b6a;
+}
+
+.header{
+  
+    height:70px;
+  
+    /* margin-bottom:10px; */
+}
+#root{
+    /* position:fixed;  */
+    /* top:-10000px; */
+    width:100%;
+    height:6px;
+    background-color:rgb(0, 177, 255);
+}
+#nav>p>span>a{
+    text-decoration: none;
+}
+#nav>p{
+  font-size: 25px;
+}
+#nav>p>span>i{
+    height:20px;width:20px;
+    color:red;
+   
+}
+#alert{
+    height:auto;
+    width:auto;
+    /* border:1px solid brown; */
+    background-color: rgb(246, 214, 172);
+    /* padding:0px 15px 0px 15px; */
+   
+}
+#covid>i{
+   font-size:x-large;
+    margin:25px 15px 13px 10px;
+    color:brown;
+}
+#covid{
+    margin-top: -20px;
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+     
+}
+
+.check{
+    color:brown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:10px 5px 0px 0px;
+}
+.cross{
+    margin:25px 0px 0px auto; 
+    color:brown;
+    cursor:pointer;
+
+}
+#more>a{
+    margin-top:0px;
+    margin-left:10px;
+    font-size:23px;
+    color:rgb(59, 27, 27);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.way{
+    /* border:1px solid blue; */
+    margin-top:15px;
+    display:flex;
+    line-height: 5px;
+    padding:10px;
+    font-size:20px;
+    background-color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.way>i{
+    height:70px;
+    width:80px;
+    font-size: 60px;
+}
+.way>span{
+    margin-top:20px;
+    
+}
+#earn{
+    
+    width:59.3%;
+    height:auto;
+    margin-top:15px;
+    /* border:1px solid red; */
+    background-color: white;
+   
+}
+#dollar{
+    display:flex;
+    justify-content:center ;
+    align-items: center;
+    gap:15px;
+    cursor: pointer;
+}
+#earn>i{
+    font-size:x-large;
+    margin:22px 15px 13px 10px;
+   
+}
+#earn>h2{
+    color:blue;
+    cursor:pointer;
+}
+#earn>h2+i{
+    color:blue;
+    cursor:pointer;
+}
+#setget{
+    display:flex;
+    gap:10px;
+}
+#data{
+    height:360px;
+    margin-top:10px;
+    width:58.5%;
+    padding-left: 20px;
+    /* border:1px solid red; */
+    background-color: white;
+    font-size:21px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#appending{
+    height:auto;
+    width:40%;
+    /* border:1px solid orange; */
+    background-color: white;
+    margin-top: -70px;
+}
+#data>input{
+    height:30px;
+    width:190px;
+    border:0.1px solid grey;
+    margin-bottom: 7px;
+}
+.free{
+    width:270px;
+    display:flex;
+    justify-content: space-around;
+    /* border:1px solid orange; */
+}
+.free>div{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+
+.free>div>p{
+    margin-left: 10px;
+}
+#country{
+    height:30px;
+    width:200px;
+    border:0.1px solid grey;
+    
+}
+#box{
+    width:10px;
+}
+#card{
+    height:auto;
+    width:58%;
+    /* border:1px solid; */
+    background-color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    
+}
+#card>input{
+    height:30px;
+    width:190px;
+    border:0.1px solid grey; 
+    margin-bottom: 7px;
+}
+#card>select{
+    height:30px;
+    width:190px;
+    border:0.1px solid grey; 
+    margin-bottom: 7px;
+}
+.secure{
+    display:flex;
+    font-size:23px;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 0px;
+   
+  
+}
+.pro{
+    display:flex;
+    font-size:23px;
+    align-items: center;
+    gap:10px;
+    margin-left: 32px;
+    margin-top: -39px;
+    
+}
+#btn{
+    margin-left: 25px;
+}
+#btn>button{
+    margin-bottom: 10px;
+}
+button{
+    width:150px;
+    height:50px;
+    font-size: 16px;
+    border:none;
+    
+}
+button:hover{
+    background-color: rgb(197, 197, 240);
+    color:red;
+    cursor:pointer;
+}
+.line{
+    width:100%;
+    height:0px;
+    border:0.1px solid rgb(209, 201, 201);
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+#cardimg{
+    margin-top:20px;
+    display:flex;
+    margin-left: 20px;
+    gap:10px;
+}
+#cardimg>div>img{
+    height:50px;
+    width:70px;
+    
+}
+#booking{
+    height:auto;
+    /* width:58%; */
+    /* border:1px solid; */
+    background-color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+#linex{
+    height:0px;
+    width:100%;
+    border:1px solid grey;
+    margin-top: -17px;
+}
+#booking>input{
+     height:30px;
+    width:190px;
+    border:0.1px solid grey; 
+    margin-bottom: 7px;
+}
+
+h2{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 0px;
+}
+#info{
+    height:auto;
+    /* width:57.9%; */
+    /* border:1px solid; */
+    background-color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+    padding-right: 5px;
+}
+
+#info>button{
+    color:white;
+    width:190px;
+
+    background-color:rgb(166, 6, 32);
+}
+
+.test{
+    height:400px;
+    width:100%;
+    border:1px solid rgb(232, 25, 59);
+
+}
+
+#signin{
+    display:flex;
+    font-size: 20px;
+    height:auto;
+    width:270px;
+    display:none;
+    /* border:1px solid ; */
+    position:relative;
+    margin-left:20px;
+    margin-bottom: 5px;
+}
+.with{
+    display:flex;
+    gap:10px;
+
+}
+.with>button{
+    background-color: rgb(242, 205, 211);
+    padding:5px;
+    border-radius: 5px;
+}
+
+#appending>img{
+    width:100%;
+    height:200px;
+}
+
+#john,#smith,#count{
+    height:32px;
+
+}
+#card form input,select{
+    width:200px;
+    height:30px;
+}
+#carddatas{
+   display:flex;
+   gap:10px;
+}
+
+#price{
+    height:auto;
+    width:50%;
+    /* border:1px solid; */
+    background-color: white;
+    margin-top: 10px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
