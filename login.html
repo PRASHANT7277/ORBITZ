@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<style>
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text],
+  input[type=password] {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0 12px 0;
+    display: inline-block;
+    background: white;
+    border: 1px solid black;
+  }
+
+  label {
+    display: inline-block;
+    width: 50%;
+  }
+
+  input[type=text]:focus,
+  input[type=password]:focus {
+    background-color: white;
+    outline: none;
+  }
+
+  button {
+    background-color: #c83259;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  button:hover {
+    opacity: 1;
+  }
+
+  .signupbtn {
+    width: 50%;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .container {
+    padding: 16px;
+  }
+
+  .modal-content {
+    width: 50%;
+    margin-left: 35%;
+
+  }
+
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #f44336;
+    cursor: pointer;
+  }
+
+  /* Clear floats */
+  .clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  /* Change styles for cancel button and signup button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .signupbtn {
+      width: 100%;
+    }
+  }
+
+  #nav {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+  }
+
+  #img {
+    height: 20px;
+    margin-left: 45%;
+  }
+</style>
+
+<body>
+  <div id="nav">
+    <img id="img" src="https://www.orbitz.com/_dms/interstitial/logo.svg?locale=en_US&siteid=70201" />
+  </div>
+  <hr>
+
+  <div class="modal">
+    <form class="modal-content" action="/action_page.php">
+      <div class="container">
+        <h1>Create an account</h1>
+        <input type="text" placeholder="Email Address" name="email" required>
+
+        <input type="text" placeholder="Frist Name" name="psw" required>
+
+        <input type="text" placeholder="Last Name" name="psw-repeat" required>
+        <input type="password" placeholder="Password" name="psw-repeat" required>
+        <label>
+          <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> This is a public or
+          shared device
+        </label>
+
+        <p>By creating an account, I agree to the Orbitz
+          <a href="#" style="color:dodgerblue;">Terms
+            and
+            Conditions</a>,
+          <a href="#" style="color:dodgerblue;">Privacy Statement</a> and
+          <a href="#" style="color:dodgerblue;">Orbitz Rewards Terms and Conditions</a>.
+        </p>
+
+        <div class="clearfix">
+          <button type="submit" class="signupbtn">Continue</button>
+        </div>
+
+        <div style="margin-left: 70px;">
+          <p>Already have an account?
+            <a href="singup.html" style="color:dodgerblue;">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
