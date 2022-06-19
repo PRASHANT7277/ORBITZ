@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Orbitz: Payment</title>
+    <script src="https://kit.fontawesome.com/c057d95c4d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ------navbar here------ -->
+    
+    <div id="navbar">
+        <div id="root"></div>
+        <div id="nav">
+            <img id="logo" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_QbzflEw7RoCcbotp0VlpCO0tifltTCWDRrZiOa2EnMfUe9WxSGxYY-JBVTcNx6LmYVU&usqp=CAU" alt="">
+            <p>
+                <span><i class="fa-solid fa-user"></i></span>
+                <span> <a href="signin.html">Sign in</a></span>
+            </p>
+        </div>
+       
+    </div>
+    <!-- ---navbar end------- -->
+    <div id="container">
+        <div class="header">
+            <h1>Secure booking - only takes 2 minutes!</h1>
+        </div>
+        <div id="alert">
+            <div id="covid">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+                <h2 class="check">Check COVID-19 restriction.</h2>
+                <h2 onclick="remove()" class="cross">x</h2>
+            </div>
+            <div id="more">
+                <a href="https://www.orbitz.com/lp/b/travel-advisor">Find out more</a>
+            </div>
+        </div>
+        <div class="way">
+            <i class="fa-solid fa-shield-cat"></i>
+            <span>Free cancellation before Wed, Jun 29, 5:59pm (property local time)</p>
+            <span>You can change or cancel this stay for a full refund if plans change. Because flexibility matters.</span>
+        </div>
+        <div id="earn">
+            <div id="dollar">
+                <i class="fa-solid fa-lock"></i>
+                <h2 id="show" style="color:blue;">Sign in to earn $8.65 in Orbucks</h2>
+                <i class="fa-solid fa-angles-up"></i>
+            </div>
+            <div id="signin">
+                <div>
+                    <form action="">
+                        <label for="">Email address</label><br>
+                        <input type="email" id="earnemail"><br>
+                        <label for="">Password</label><br>
+                        <input type="password" id="earnpass">
+                        <p>By signin in, I agree to the 
+                            <span><a href="https://www.orbitz.com/rewards/terms">Orbitz Rewards Term and Condition.</a></span>
+                
+                        </p>
+                        <button id="done">Sign in</button>
+                        <p><a href="#">Forgot your password</a></p>
+                    </form>
+    
+                </div>
+                <div class="line"></div>
+                <div class="with">
+                    <button>
+                        <i class="fa-brands fa-apple" style="color:red;"></i>
+                        <span>Sign in with Apple</span>
+                    </button><br>
+                    <button>
+                        <i class="fa-brands fa-facebook-square" style="color:blue;"></i>
+                        <span>Sign in with Facebook</span>
+                    </button>
+                </div>
+               
+            </div>
+            
+        </div>
+        <div id="setget">
+            <div id="data">
+                <h2 id="rooms"></h2>
+            <div class="free">
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    <p style="color:green">Free parking</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-check"></i>
+                    <p style="color:green">Free WiFi</p>
+                </div>
+            </div>
+            <form action="">
+                <label for="">First name *</label><br>
+                <input id="john" type="text" placeholder="(e.g. John)" reguired><br>
+                <label for="">Last name *</label><br>
+                <input id="smith" type="text" placeholder="(e.g. Smith)" reguired><br>
+                <label for="">Mobile phone number *</label><br>
+                <select id="count" name="" id="country">
+                    <option value="">Afganishtan +93</option>
+                    <option value="">Albania +355 </option>
+                    <option value="">Andorra +376</option>
+                    <option value="">Angola +244</option>
+                    <option value="">Amenia +374</option>
+                    <option value="">Bahamas +1</option>
+                    <option value="">Bangladesh +880</option>
+                    <option value="">Belarus +375</option>
+                    <option value="">Brazil +55</option>
+                    <option value="">Cambodia +855</option>
+                    <option value="">China +86</option>
+                    <option value="">Cuba +53</option>
+                    <option value="">Denmark 1</option>
+                    <option value="">France +33</option>
+                    <option value="">Tonga +676</option>
+                    <option value="">Ukrain +380</option>
+                    <option value="">Italy +39</option>
+                    <option value="">India +1</option>
+                    <option value="">South africa</option>
+                    <option value="">Russia +7</option>
+                    <option value="">Zimbawe +263</option>
+                </select><br>
+                <div>
+                    <input id="receive" style="height:30px;width:50px;margin-top:10px;" type="checkbox" value="">Receive text alerts about this trip. Message and data rates may apply.
+                </div>
+                </div>
+            </form>
+          
+            <div id="appending"></div>
+           
+        </div>
+        <div id='carddatas'>
+            <div id="card">
+                <div class="secure">
+                    <i class="fa-solid fa-id-card"></i>
+                    <i class="fa-solid fa-check"></i>
+                    <p>We use secure transmission</p>
+                </div>
+                <div class="pro">
+                    <i class="fa-solid fa-check"></i>
+                    <p>We protect your personal information</p>
+                </div>
+                <div id="btn">
+                    <button>Debit/Credit Card</button>
+                    <button>PayPal</button>
+                    <button>Monthly Payments</button><br>
+                    <button>Click-to-Pay</button>
+                </div>
+                <div class="line"></div>
+                <div id="cardimg">
+                    <div>
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQZZNmaFM2eVUptcxKfjhsztGiIFNkUToG_BzgQYX5R1hOeMCSw" alt="">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRzSQ8YJsnFtK69ft0vJO0C-Q1qlhH-n71LHn4Z6oODPiDF15jB" alt="">
+                    </div>
+                    <div>
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/UnionPay_logo.svg" alt="">
+                    </div>
+                    <div>
+                        <img src="https://icons.iconarchive.com/icons/designbolts/credit-card-payment/256/Diners-Club-International-icon.png" alt="">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSj9dUa_uAhnaoVG5rXUYg2XGbujH8AThd5tECeMnPkeS8L707D" alt="">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ8IcKygpXZHTRT0wYEksIF-Ut0m--HJsKFonUjaMuOII-7yaCL" alt="">
+                    </div>
+                    <div>
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjTYa5sys89NjOQJWYYeWmL2wP-PVCS9GzCaTqk42NM-XkfqNF" alt="">
+                    </div>
+                </div>
+                <form action="">
+                    Name on Card <br>
+                    <input id="cardname" type="text" required><br>
+                    <label for="">Debit/Credit card number *</label><br>
+                    <input id="cardnumb" type="number" required><br>
+                    <label for="">Expiration date *</label><br>
+                    <select  id="month" >
+                        <option value="Month">Month</option>
+                        <option value="01-Jan">01-Jan</option>
+                        <option value="02-Feb">02-Feb</option>
+                        <option value="03-Mar">03-Mar</option>
+                        <option value="04-Apr">04-Apr</option>
+                        <option value="05-May">05-May</option>
+                        <option value="06-June">06-June</option>
+                        <option value="07-July">07-July</option>
+                        <option value="08-Aug">08-Aug</option>
+                        <option value="09-Sep">09-Sep</option>
+                        <option value="10-Oct">10-Oct</option>
+                        <option value="11-Nov">11-Nov</option>
+                        <option value="12-Dec">12-Dec</option>
+                    </select>
+                    <select id="year" >
+                        <option value="">Year</option>
+                        <option value="">2019</option>
+                        <option value="">2020</option>
+                        <option value="">2021</option>
+                        <option value="">2022</option>
+                        <option value="">2023</option>
+                        <option value="">2024</option>
+                        <option value="">2025</option>
+                        <option value="">2026</option>
+                        <option value="">2027</option>
+                        <option value="">2028</option>
+                        <option value="">2029</option>
+                    </select><br>
+                    <label for="">Security code *</label><br>
+                    <input id="scode" type="text" required><br>
+                    <label for="">Billing ZIP code *</label><br>
+                    <input id="zip" type="text" required>
+                
+                </form>
+            </div>
+            <div id="price">
+               
+            </div>
+        </div>
+       
+           
+      
+
+        <form action="">
+            <div id="booking">
+                <h2>Manage your booking</h2>
+                <div id="linex"></div>
+                <h2>Confirmation email</h2>
+                <p>Please enter the email address where you would like to receive your confirmation.</p>
+                <label for="">Email address *</label><br>
+                <input id="gmail" type="email" required>
+                <div class="line"></div>
+                <h2>Create an account</h2>
+                <p>Easily access your itinerary when you create an account using the email address above.</p>
+                <label for="">Create password</label><br>
+                <input id="crpass" type="password" placeholder="6-30 characters, no spaces"><br>
+                <label for="">Confirm password</label><br>
+                <input id="cfpass" type="password" required>
+                <p>By creating an account, I agree to the
+                 <span><a href="https://www.orbitz.com/rewards/terms"> Orbitz Rewards Terms and Conditions.</a></span>
+                </p>
+             </div>
+        </form>
+        <div id="info">
+            <p>Important information about your booking</p>
+            <li>Cancellations or changes made after 5:59pm (property local time) on Jun 29, 2022 or no-shows are subject to a property fee equal to 100% of the total amount paid for the reservation.</li>
+            <li>To make arrangements for check-in please contact the property ahead of time using the information on the booking confirmation. If you are planning to arrive after midnight please contact the property in advance using the information on the booking confirmation. Guests must contact the property in advance for check-in instructions. Front desk staff will greet guests on arrival.</li>
+            <li>To register at this property, guests who are Indian citizens must provide a valid photo identity card issued by the Government of India; travelers who are not citizens of India must present a valid passport and visa.</li>
+            <li>Per the property, all staff members at this property are fully vaccinated against COVID-19.</li>
+            <P>By clicking on the button below, I acknowledge that I have reviewed the
+                <span><a href="https://www.orbitz.com/lp/lg-privacy">Privacy Statement</a></span>
+                <span>and</span>
+                <span><a href="https://travel.state.gov/content/travel/en/traveladvisories/traveladvisories.html/">Government Travel Active</a></span>
+                <span>and have reviewed and accept the</span>
+                <span><a href="https://www.orbitz.com/Checkout/V1/HotelRulesAndRestrictions?tripid=03ec9121-6405-54c1-af60-e620fa2a3966&rfrr=HOT.CKO.Rules&np=1">Rules & Restriction</a></span>
+                <span>and</span>
+                <span><a href="https://www.orbitz.com/lp/lg-terms">Terms of Use</a></span>
+            </P>
+            <p>
+                <i class="fa-solid fa-check"></i>
+                <span style="color:green">Change of plans?</span> 
+                <span style="color:green">No problem. You can cancel for free before</span>
+                <span><a href="#">booked date</a></span> 
+            </p>
+
+            <button id="pay">Complete Booking ></button>
+
+            <p>
+                <i class="fa-solid fa-lock"></i>
+                <span>We use secure transmission and encrypted storage to protect your personal information.</span>
+                <p>This payment will be processed in the U.S. This does not apply when the travel provider (airline/hotel/rail, etc.) processes your payment.
+                </p>  
+            </p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="script.js"></script>
