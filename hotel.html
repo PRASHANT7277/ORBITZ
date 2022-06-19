@@ -1,0 +1,1044 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body {
+          background-color: #fffafb;
+          height: 100%;
+        }
+       /* ***1 */
+        #container {
+            display: grid;
+            width: 80%;
+            margin-left: 10%;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(2, 250px);
+            grid-gap: 10px;
+            margin-bottom: 20px;
+            grid-template-areas:
+            "a b c "
+            "i j k "
+            
+          }
+    
+          
+          #container > div:nth-child(1) {
+            grid-area: a;
+          }
+    
+          #container > div:nth-child(2) {
+            grid-area: b;
+          }
+    
+          #container > div:nth-child(3) {
+            grid-area: c;
+          }    
+          #container > div:nth-child(9) {
+            grid-area: i;
+          }
+          #container > div:nth-child(10) {
+            grid-area: j;
+          }
+          #container > div:nth-child(11) {
+            grid-area: k;
+          }
+        
+        /* image dimensions are 112x112 */
+        #container>div>img{
+            height: 250px;
+            width: 400px;
+            border-radius: 5%;
+            gap: 10px;
+            /* margin-bottom: 20px; */
+        }
+ /* ***2 */
+          /* TheLeelaGoa page start */
+     #TheLeelaGoa{
+       /* margin-top: 20px;      */
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(1,300px);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: 320px;
+       /* border: 1px solid black; */
+     }
+     #TheLeelaGoa > div {
+       width: 100%;
+       /* border: 1px solid red; */
+     }
+     #TheLeelaGoa > div > img{
+        height: 80%;
+        width: 100%;
+
+     }
+     #TheLeelaGoa > div > img > a {
+        margin-left: 40%;
+     }
+       /* TheLeelaGoa page end*/
+          /* Popular amenities page start */
+    #Popularamenities{
+       /* margin-top: 20px;      */
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-template-rows: repeat(1,200px);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: 200px;
+       /* border: 1px solid black; */
+     }
+     #Popularamenities > div {
+       width: 100%;
+       /* border: 1px solid red; */
+     }
+     #a{
+        margin-top: 50px;
+     }
+      /* Cleaningandsafetypracticespage start */
+     #Clean{
+       margin-top: 0px;     
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-template-rows: repeat(1,155px);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: 175px;
+       /* border: 1px solid black; */
+     }
+     #Clean > div {
+       width: 100%;
+       /* border: 1px solid red; */
+     }
+      /* Cleaningandsafetypractices page end */
+/* 
+
+****3      */
+
+    /* Popular travel Start */
+    #Books{
+       margin-top: 0px;     
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(3,auto);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: auto;
+       /* border: 1px solid black; */
+       margin-bottom: 20px;
+     }
+     #Books > div {
+       width: 100%;
+       /* border: 1px solid red; */
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     }
+     #Books > div > img {
+       width: 100%;
+       height: 240px;
+     }
+    
+     #Books > div > h3{
+       margin-top: -10px;
+       /* text-align: center; */
+       margin-left: 30px;
+     }
+     #Books > div > p{
+       /* text-align: center; */
+       width: auto;
+       margin-left: 30px;
+     }
+
+     button{
+       padding: 8px;
+       border-radius: 7px;
+       border: none;
+       color: rgb(71, 232, 232);
+       background-color: aliceblue;
+      
+     }
+     .buttons-div {
+       display: flex;
+       justify-content: space-around;
+       margin-bottom: 15px;
+       
+     }
+     .buttons-div :hover {
+       background-color: red;
+       cursor: pointer;
+     }
+     .option{
+        margin-top: 15px;
+        border: 1px solid black;
+        margin-left: 10px;
+        margin-right: 10px;
+     }
+     .ruppe > h4{
+        margin-left: 30px;
+     }
+     .ruppe > h3 {
+        margin-left: 30px;
+     }
+     .left{
+        margin-left: 50%;
+     }
+     div > h2 {
+        margin-left: 10px;
+     }/* Popular travel End */
+   
+/* ****4)      */
+
+
+/* 
+*****5) */
+   /* About this area page start */
+   #Aboutthisarea{
+       /* margin-top: 20px;      */
+       display: grid;
+       grid-template-columns: repeat(2,1fr);
+       grid-template-rows: repeat(1,auto);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: auto;
+       /* border: 1px solid black; */
+     }
+     #Aboutthisarea > div {
+       width: 100%;
+       /* border: 1px solid red; */
+     }
+     #Aboutthisarea > div > img{
+        height: 80%;
+     }
+     #Aboutthisarea > div > img > a {
+        margin-left: 40%;
+     }
+     /* About this area page end */
+/* 
+****6)      */
+/* similar */
+#Books-1{
+       /* margin-top: 20px;      */
+       display: grid;
+       grid-template-columns: repeat(4,1fr);
+       grid-template-rows: repeat(1,auto);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: 520px;
+       /* border: 1px solid black; */
+     }
+     #Books-1 > div {
+       width: 100%;
+       /* border: 1px solid red; */
+       box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+     }
+     #Books-1 > div > img {
+       width: 100%;
+       height: 240px;
+     }
+    
+     #Books-1 > div > h3{
+       margin-top: -10px;
+       /* text-align: center; */
+       margin-left: 30px;
+     }
+     #Books-1 > div > p{
+       /* text-align: center; */
+       width: auto;
+       margin-left: 30px;
+     }
+
+     button{
+       padding: 8px;
+       border-radius: 7px;
+       border: none;
+       color: rgb(71, 232, 232);
+       background-color: aliceblue;
+      
+     }
+     .buttons-div {
+       display: flex;
+       justify-content: space-around;
+       margin-bottom: 15px;
+       
+     }
+     .buttons-div :hover {
+       background-color: red;
+       cursor: pointer;
+     }
+   
+     .ruppe > h4{
+        margin-left: 30px;
+     }
+     .ruppe > h3 {
+        margin-left: 30px;
+     }
+     .left{
+        margin-left: 50%;
+     }
+     div > h2 {
+        margin-left: 10px;
+     }
+     #head{
+      margin-left: 10%;
+     }
+        
+/* ****7)      */
+/* amenities start */
+#amenities{
+       /* margin-top: 20px;      */
+       display: grid;
+       grid-template-columns: repeat(3,1fr);
+       grid-template-rows: repeat(1,auto);
+       margin: auto;
+       gap: 20px;
+       width: 80%;
+       height: auto;
+       /* border: 1px solid black; */
+     }
+     #amenities > div {
+       width: 100%;
+       /* border: 1px solid red; */
+       /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
+     }
+     /* amenities end */
+     #footer{
+  
+  display:flex;
+  height: 350px;
+  width: 100%;
+  margin:auto;
+  
+ 
+}.fdiv{
+  width: 20%;
+  height:350px;
+ 
+  background-color: whitesmoke;
+}.fdiv>h4,h5{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.fdiv>h5{
+  line-height:2px;
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
+}.fdiv>h1{
+  text-align:center;
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(26, 26, 125)
+}
+#navbar{
+    display: flex;
+    background-color:rgb(30, 3, 55);
+    height:80px;
+    width:100%;
+    color:white;
+    justify-content:space-between;
+}#nav{
+    height: 30px;
+    margin-top:20px
+}
+a{
+    
+   margin-left:15px 
+}
+#bar{
+    display:flex;
+    justify-content: space-around;
+
+}#nimg{
+    margin-top: 15px;
+    height: 50px;
+    width:140px;
+    
+}
+
+
+    </style>
+</head>
+<body>
+  <!-- ****1) -->
+    <!-- upper gird Area -->
+    <div id="navbar">
+      <div ><a href="index.html"><img id="nimg" src="https://tse1.mm.bing.net/th?id=OIP.tT958ARtBe-btW9FhZ7rSAAAAA&pid=Api&P=0&w=477&h=94"></a></div>
+<select id="nav">
+    <option>More Travel</option>
+    <option>Stays</option>
+    <option>Flights</option>
+    <option>Package</option>
+    <option>car</option>
+    <option>Cruises</option>
+    <option>Things to do</option>
+    <option>Deals</option>
+    <option>Group and meeting</option>
+    <option>Travel Blog</option>
+</select>
+<div id="bar">
+ <h3><a>Espanol</a></h3>
+ <h3><a>List your Property</a></h3>
+ <h3><a>Support</a></h3>
+ <h3><a href="trips.html">Trips</a></h3>
+ <h3><a id="a">Login</a></h3>
+</div>
+    
+  </div>
+         <div id="container">
+            <div>
+                <img src="https://images.trvl-media.com/hotels/45000000/44550000/44542300/44542284/1d49f5aa.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" alt="">
+            </div>
+            <div>
+                <img src="https://images.trvl-media.com/hotels/45000000/44550000/44542300/44542284/07d86a6d.jpg?impolicy=resizecrop&rw=598&ra=fit" alt="">
+            </div>
+            <div>
+                <img src="https://images.trvl-media.com/hotels/45000000/44550000/44542300/44542284/cd533fb6.jpg?impolicy=resizecrop&rw=297&ra=fit" alt="">
+            </div>
+            <div>
+                <img src="https://images.trvl-media.com/hotels/1000000/10000/2300/2222/dfac1301.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="">
+            </div>
+            <div>
+                <img src="https://images.trvl-media.com/hotels/43000000/42100000/42092500/42092434/f321bcea.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="">
+            </div>
+            <div>
+                <img src="https://images.trvl-media.com/hotels/13000000/12630000/12620600/12620599/a9ca5646.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="">
+            </div>
+        </div>
+  <!-- ****2) -->
+        <!-- TheLeelaGoa page start-->
+    <div id="TheLeelaGoa">
+      <div>
+       <h1>The Leela Goa</h1>
+       <p> 5 Star.</p>
+       <h3>4.7/5 Exceptional</h3>
+       <p>Guests rated this property 4.8/5 for cleanliness.</p>
+       <a href="#">See More Views.</a>
+      </div>
+      <div>
+          <img src="https://i.pinimg.com/originals/5d/fc/fb/5dfcfbcfbeb64a135036049fc1516878.jpg"/>
+          <a href="https://www.google.com/maps/search/Google+Map/@18.1723655,73.8483414,8z/data=!3m1!4b1?hl=en">FInd More</a>
+          <p>Mobor Cavelossim, Cavelossim, Goa, 403 731</p>
+      </div>
+  </div>
+    <!-- TheLeelaGoa page end -->
+    <!-- Popularamenities start -->
+  <div id="Popularamenities">
+      <div>
+      <h2>Popular amenities</h2>
+       <p>On private beach</p>
+       <p>Pool</p>
+       <p>Free WiFi</p>
+       <a href="#">See All.</a>
+      </div>
+      <div id="a">
+          <p>Parking included</p>
+          <p>Air conditioning</p>
+          <p>Spa</p>
+      </div>
+      <div>
+          <h2>Explore the area</h2>
+          <p>Mobor Beach
+              6 min walk</p>
+          <p>Cavelossim Beach
+              15 min walk</p>
+          <p>Holy Cross Chapel-Baradi
+              16 min drive</p>
+          <p>Goa (GOI-Dabolim)
+              102 min drive</p>
+        
+      </div>
+  </div>  
+  <!-- Popularamenities end -->
+  <!-- Cleaning and safety practices start -->
+  <div id="Clean">
+      <div>
+       <h2>Cleaning and safety practices</h2>
+       <p>Cleaned with disinfectant</p>
+       <p>Contactless check-in</p>
+       <a href="#">See More.</a>
+      </div>
+      <div>
+          <p>Hand sanitizer provided</p>
+          <p>Personal protective equipment</p>
+      </div>
+  </div>
+   <!-- Cleaning and safety practices end -->
+
+
+<!-- ****3)    -->
+
+<!-- Polpular Travel Start -->
+<div id="Books">
+  <div>
+    
+    <img src="https://images.trvl-media.com/hotels/45000000/44550000/44542300/44542284/6c048c99.jpg?impolicy=fcrop&w=1200&h=800&p=1&q=medium" alt="" />        
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free self parking</p>
+    <div class="left">
+      <a href="#">Fully refundable</a>
+    <br>
+    <p1>Before Tue, Jun 28</p1>
+    <br>
+    <a href="#">More Details</a>
+    </div>
+    <div class="option">
+      <h5>This option has certain restrictions:</h5>
+      <p>* Coupon codes cannot be applied</p>
+      <p>* No changes allowed, except for cancellations</p>
+    </div>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="payment.html">Reserve</a></button>
+    </div>
+  </div>
+  <div>
+    <img src="https://images.trvl-media.com/hotels/1000000/30000/24200/24154/b62ca7b0.jpg?impolicy=fcrop&w=455&h=235&p=1&q=medium" alt="" />          
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free self parking</p>
+    <div class="left">
+      <a href="#">Fully refundable</a>
+    <br>
+    <p1>Before Tue, Jun 28</p1>
+    <br>
+    <a href="#">More Details</a>
+    </div>
+    <div class="option">
+      <h5>This option has certain restrictions:</h5>
+      <p>* Coupon codes cannot be applied</p>
+      <p>* No changes allowed, except for cancellations</p>
+    </div>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="payment.html">Reserve</a></button>
+    </div>
+  </div>
+  <div>
+    <img src="https://images.trvl-media.com/hotels/1000000/20000/14300/14293/8b7b158e.jpg?impolicy=fcrop&w=455&h=235&p=1&q=medium" alt="" />        
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free self parking</p>
+    <div class="left">
+      <a href="#">Fully refundable</a>
+    <br>
+    <p1>Before Tue, Jun 28</p1>
+    <br>
+    <a href="#">More Details</a>
+    </div>
+    <div class="option">
+      <h5>This option has certain restrictions:</h5>
+      <p>* Coupon codes cannot be applied</p>
+      <p>* No changes allowed, except for cancellations</p>
+    </div>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="payment.html">Reserve</a></button>
+    </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/1000000/20000/12700/12652/8843cfac.jpg?impolicy=fcrop&w=455&h=235&p=1&q=medium" alt="" />          
+      <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free self parking</p>
+    <div class="left">
+      <a href="#">Fully refundable</a>
+    <br>
+    <p1>Before Tue, Jun 28</p1>
+    <br>
+    <a href="#">More Details</a>
+    </div>
+    <div class="option">
+      <h5>This option has certain restrictions:</h5>
+      <p>* Coupon codes cannot be applied</p>
+      <p>* No changes allowed, except for cancellations</p>
+    </div>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="payment.html">Reserve</a></button>
+    </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/16000000/15270000/15260800/15260774/7c4209b5.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/1000000/20000/17800/17764/bb198440.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/16000000/15770000/15768200/15768135/d5479cbc.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />        
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/1000000/20000/17800/17764/bb198440.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/1000000/30000/23800/23720/f9a297f7.jpg?impolicy=resizecrop&rw=1200&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/16000000/15270000/15260800/15260774/7c4209b5.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/1000000/480000/479200/479114/cc8ea203.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+    <div>
+      <img src="https://images.trvl-media.com/hotels/16000000/15770000/15768200/15768135/d5479cbc.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />        
+      <h2>Double Room King Bed</h2>
+      <p>Free WiFi</p>
+      <p>Free self parking</p>
+      <div class="left">
+        <a href="#">Fully refundable</a>
+      <br>
+      <p1>Before Tue, Jun 28</p1>
+      <br>
+      <a href="#">More Details</a>
+      </div>
+      <div class="option">
+        <h5>This option has certain restrictions:</h5>
+        <p>* Coupon codes cannot be applied</p>
+        <p>* No changes allowed, except for cancellations</p>
+      </div>
+      <div class="ruppe">
+        <h4 >$130.</h4>
+        <h3>$147 Total</h3>
+      </div>
+      
+      <div class="buttons-div">
+        <button><a href="View.html">Price Details</a></button>
+        <button><a href="payment.html">Reserve</a></button>
+      </div>
+    </div>
+   </div> 
+    
+     <!-- Polpular Travel End -->
+
+
+<!-- ****4)      -->
+
+<!-- 
+****5) -->
+
+
+
+
+
+<!-- About this area page Start -->
+<div id="Aboutthisarea">
+  <div>
+      <h2>About this area</h2>
+      <h3>Cavelossim</h3>
+      <p>Located in Cavelossim, The Leela Goa is near a train station and on a private beach. The area's natural beauty can be seen at Mobor Beach and Varca Beach. Traveling with kids? Consider Maria Hall, or check out an event or a game at Fatorda Stadium. Spend some time exploring the area's activities, including golfing.</p>
+      <h3>What's nearby</h3>
+      <p>Mobor Beach - 6 min walk</p>
+      <p>Cavelossim Beach - 15 min walk</p>
+      <p>Varca Beach - 13 min drive</p>
+      <p>Holy Cross Chapel-Baradi - 16 min drive</p>
+      <p>Cabo de Rama Fort - 29 min drive</p>
+      <h3>Getting around</h3>
+      <p>Chandor Station - 24 min drive</p>
+      <p>Dabolim Airport (GOI) - 102 min drive</p>
+  </div>
+  <div>
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZtw70AOz34cK3n4YZAQZTTVHpgYjHz9mFWfb6veninSyn1Wr106rxr6OmSafYl9ZWgNo&usqp=CAU"/>
+      <a href="https://www.google.com/maps/search/Google+Map/@18.1723655,73.8483414,8z/data=!3m1!4b1?hl=en">FInd More</a>
+  </div>
+
+
+</div>
+<!-- About this area page end -->
+
+<!-- ****6) -->
+<h1 id="head">You May Also Likes...!</h1>
+<div id="Books-1">
+  <div>
+    <img src="https://images.trvl-media.com/hotels/79000000/78550000/78549000/78548974/1fb9ea41.jpg?impolicy=resizecrop&rw=455&ra=fit" alt="" />          
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free Self Parking</p>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="Detail.html">Reserve</a></button>
+    </div>
+  </div>
+  <div>
+    <img src="https://cdn.farecompare.com/resources/mcms/webimages/1x/large-deals-sfo-1.jpg" alt="" />          
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free Self Parking</p>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="Detail.html">Reserve</a></button>
+    </div>
+  </div>
+  <div>
+    <img src="https://cdn.farecompare.com/resources/mcms/webimages/1x/large-deals-bos-1.jpg" alt="" />          
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free Self Parking</p>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="Detail.html">Reserve</a></button>
+    </div>
+  </div>
+  <div>
+    <img src="https://cdn.farecompare.com/resources/mcms/webimages/1x/large-deals-nyc-1.jpg" alt="" />          
+    <h2>Double Room King Bed</h2>
+    <p>Free WiFi</p>
+    <p>Free Self Parking</p>
+    <div class="ruppe">
+      <h4 >$130.</h4>
+      <h3>$147 Total</h3>
+    </div>
+    
+    <div class="buttons-div">
+      <button><a href="View.html">Price Details</a></button>
+      <button><a href="Detail.html">Reserve</a></button>
+    </div>
+  </div>
+</div> 
+
+<!-- ****7) -->
+
+   <!-- amenities start -->
+   <div id="amenities">
+    <div>
+        <h2>Property amenities</h2>
+    </div>
+    <div>
+        <h3>Internet</h3>
+        <p>Available in all rooms: Free WiFi</p>
+        <p>Free in-room WiFi has a 3-device limit</p>
+        <p>Available in some public areas: Free WiFi</p>
+        <p>WiFi in public areas is free with a 3-device limit</p>
+        <h3>Parking and transportation</h3>
+        <p>Free self parking on site</p>
+        <p>Free secured valet parking on site</p>
+        <p>Wheelchair-accessible parking available</p>
+        <p>Free train station pick-up shuttle</p>
+        <h3>Food and drink</h3>
+        <p>Buffet breakfast available for a fee daily 7:30 AM–10:30 AM: INR 2200 for adults and INR 1100 for children</p>
+        <p>4 restaurants and 1 coffee shop/cafe</p>
+        <p>24-hour room service</p>
+        <p>1 poolside bar</p>
+        <p>Coffee/tea in common area(s)</p>
+        <h3>Restaurants on site</h3>
+        <p>The Restaurant</p>
+        <p>Riverside</p>
+        <p>Susegado</p>
+        <p>Jamavar</p>
+        <h3>Things to do</h3>
+        <p>9 holes of golf</p>
+        <p>3 outdoor pools</p>
+        <p>Children's pool</p>
+        <p>Shopping</p>
+        <p>Steam room</p>
+        <p>Fitness center</p>
+        <h3>Family friendly</h3>
+        <p>Free newspapers in lobby</p>
+        <p>Library</p>
+        <p>24-hour front desk</p>
+        <p>Daily housekeeping</p>
+        <p>Wedding services</p>
+    </div>
+    <div>
+       <h2>Room amenities</h2>
+       <h3>Bedroom</h3>
+       <p>Air conditioning (climate-controlled)</p>
+       <p>Bed sheets</p>
+       <p>Free cribs/infant beds</p>
+       
+       <p>Premium bedding</p>
+       <h3>Bathroom</h3>
+       <p>Bathrobes</p>
+       <p>Bathroom (partially open)</p>
+       <p>Bidet</p>
+       <p>Designer toiletries</p>
+       <p>Hair dryer</p>
+       <p>Separate bathtub and shower</p>
+       <h3>Entertainment</h3>
+       <p>40-inch LCD TV</p>
+       <p>Cable channels</p>
+       <p>Premium channels</p>
+       <h3>Food and drink</h3>
+       <p>Coffee/tea maker</p>
+       <p>Free bottled water</p>
+       <p>Minibar</p>
+       <h3>More</h3>
+       <p>Connecting rooms available</p>
+       <p>Desk</p>
+       <p>Free newspapers</p>
+       <p>Laptop-compatible safe</p>
+       <p>Phone</p>
+       <p>Turndown service</p>
+    </div>
+</div> 
+<!-- amenities end -->
+ 
+<div id="footer">
+  <div class="fdiv">
+      <h1>expedia group</h1>
+     
+  </div>
+  <div class="fdiv">
+      <h4>Company</h4>
+      <h5>About us</h5>
+      <h5>List your property</h5>
+      <h5>Partnerships</h5>
+      <h5>Newsroom</h5>
+      <h5>Investor Relations</h5>
+      <h5>Site Map</h5>
+      <h5>Orbitz Rewards</h5>
+      <h5>Advertising</h5>
+  </div>
+  <div class="fdiv">
+      <h4>Explore</h4>
+      <h5>Hotel in the united States</h5>
+      <h5>Vacation home in the united states</h5>
+      <h5>Car Rentals in United States</h5>
+      <h5>List your property</h5>
+      <h5>Domestic Flights</h5>
+      <h5>Vacation Packages in United States</h5>
+      <h5>Orbitz Reviews</h5>
+      <h5>Site Map</h5>
+      <h5>Orbitz Rewards</h5>
+      <h5>Unique Accommodations</h5>
+      <h5>Travel Blog</h5>
+
+  </div>
+  <div class="fdiv">
+      <h4>Policies</h4>
+      <h5>Privacy Policy</h5>
+      <h5>Terms of Use</h5>
+      <h5>Vrbo terms and conditions</h5>
+      <h5>hOrbitz Rewards Terms</h5>
+      <h5>Do not sell my personal information</h5>
+      
+  </div>
+  <div class="fdiv">
+      <h4>Help</h4>
+      <h5>Support</h5>
+      <h5>Cancel your hotel  booking</h5>
+      <h5>Cancel your flight</h5>
+      <h5>Refund timelines, policies & processes</h5>
+      <h5>Use an Orbitz Coupon</h5>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
+<script>
+  let out=JSON.parse(localStorage.getItem("login"))
+    document.getElementById("a").innerText=out[0].name
+</script>
