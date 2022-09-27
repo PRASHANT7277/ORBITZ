@@ -1,7 +1,7 @@
 # ORBITZ clone
 
 Hello everyone we are a group of four peoples and we cloned a orbitz website by using HTML, CSS, JS.
-Netlify link:-https://visionary-travesseiro-41416f.netlify.app/.
+Netlify link:-https://orbitz-theta.vercel.app/.
 
 
 ## Features
