@@ -6,7 +6,7 @@ Netlify link:-https://orbitz-theta.vercel.app/.
 
 ## Features
 
-- Homepage,trips and stay:-Prashant Kumar.
+- Homepage, trips and stay:-Prashant Kumar.
 - Signup & login page :-Abhishek singh.
 - Hotel page :- Ashutosh chavan.
 - Payment page-Lalita Kumari.
