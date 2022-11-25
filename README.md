@@ -1,6 +1,6 @@
 # ORBITZ clone
 
-Hello everyone we are a group of four peoples and we cloned a orbitz website by using HTML, CSS, JS.
+Hello everyone we are a group of four peoples and we cloned  orbitz website by using HTML, CSS, JS.
 Netlify link:-https://orbitz-theta.vercel.app/.
 
 
